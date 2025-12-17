@@ -1,4 +1,4 @@
-### NoSQL
+## NoSQL
 - Designed to handle large Volume of Databases both structured and unstructured
 - High user loads
 - Need for flexibility and flexibility
@@ -23,7 +23,7 @@
  - Designed for storing relationships between entities
  - USe nodes, edges and properties
 
-### * Advantages
+## Advantages
 
 #### Schema flexibility
 - **No fixed schema** you can store different types of data in the same database
@@ -45,3 +45,13 @@
 #### Support for Various DataTypes
 - Can Handle **structured, semi-structured and unstructured** data
 - Usefull for modern application dealing with logs, user-generated content, IoT,etc.
+
+## DisAdvantages
+
+#### Lack of Standardization
+- No standard query language like SQL
+- Makes **switching between NoSQL systems** or hiring experiencing developers more difficult
+
+#### Eventual Consistency (Not Always Strong Consistency)
+- Many NoSQL follow the **CAP theorm** and prefer **availablility and partition tolerance over consistency**
+- Changes made to the databases may not be in immidiately visible across all nodes
